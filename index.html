@@ -1,0 +1,28 @@
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link href='css/d2sc.css' rel='stylesheet' type='text/css'>
+	<title> Dota 2 Sound Cue Quiz </title>
+</head>
+<body>
+	<div class="ability">
+		<img id="ability-icon">
+		<div id="ability-text"></div>
+		<audio autoplay id="ability-player">
+			<source id="ability-audio" type="audio/mp3">
+		</audio>
+		<div id="score-text"></div>
+	</div>
+	<div id="input-box">
+		<input class="typeahead" type="text" placeholder="Ability name">
+	</div>
+</body>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/typeahead.js/dist/typeahead.bundle.js"></script>
+<script src="js/d2sc.js"></script>
+<script src="js/input-box.js"></script>
+<script src="js/player.js"></script>
+
+
+</html>
