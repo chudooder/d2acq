@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	var player = $('#ability-player');
+	player[0].volume = 0.5;
 	console.log(player)
 	$('#ability-icon').click(function(){
 		player.currentTime = 0;
