@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
@@ -5,7 +6,10 @@
 	<title> Dota 2 AACQ </title>
 </head>
 <body>
-	<div class="banner"> Dota 2 Ability Audio Cue Quiz </div>
+	<div class="banner"> 
+		Dota 2 Audio Cue Quiz 
+		<div class="subtitle"> Can you recognize these abilities by their audio cues? </div>
+	</div>
 	<div class="ability">
 		<div>
 			<img id="ability-icon">
@@ -14,7 +18,11 @@
 		<audio autoplay id="ability-player">
 			<source id="ability-audio" type="audio/mp3">
 		</audio>
+	</div>
+	<div class="score">
 		<div id="score-text"></div>
+		<div id="streak-text"></div>
+		<div id="misses-text"></div>
 	</div>
 	<div id="input-box">
 		<input class="typeahead" type="text" placeholder="Ability name">
