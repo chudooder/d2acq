@@ -15,6 +15,9 @@ var resetGame = function() {
 	misses = 0;
 	unplayed = ABILITIES.slice();
 	hidden = true;
+
+	$('.reset').css('visibility', 'hidden');
+
 	setNewAbility();
 	updateScoreElements(0);
 };
@@ -74,12 +77,21 @@ var updateScoreElements = function(delta) {
 var submitAnswer = function(answer) {
 	// console.log(answer)
 	revealAbility();
-	updateScore(answer === curAbility)
+	var correct = (answer === curAbility);
+	updateScore(correct);
 	unplayed.splice(unplayed.indexOf(curAbility), 1);
-	setTimeout(function() {
+	if(misses < 3) {
+		setTimeout(function() {
 			setNewAbility();
 		}, 2000);
+	} else {
+		$('.reset').css('visibility', 'visible');
+	}
+
 }
 $(document).ready(function() {
+	$('.reset').click(function() {
+		resetGame();
+	});
 	resetGame();
 });
