@@ -28,32 +28,32 @@ var setNewAbility = function() {
 	console.log(curAbility);
 	hidden = true;
 
+	//Get rid of old hint
+	$('#cheat').text('Give me a hint!');
 	// hide ability icon
 	$('#ability-icon').attr('src', 'img/icons/Unknown.png');
-	//Show hints
-	//Chose the right options
-	if ($("#cheat").prop('checked')) {
-		var right = Math.floor(Math.random() * 4);
-		var options = [];
-		for (var i = 0; i <= 3; i++) {
-			if (i == right) {
-				options.push(" " + curAbility);
-			}
-			else {
-				options.push(" " + ABILITIES[Math.floor(Math.random() * ABILITIES.length)]);
-			}
-		}
-		$('#ability-text').text('Is it:' + options);
-	}
-	else {
-		$('#ability-text').text('???');
-	}
+	//Set text to ???
+	$('#ability-text').text('???');
 	// set ability audio
 	$('#ability-audio').attr('src', 'audio/'+curAbility+'.mp3');
 	// load and play audio
 	$('#ability-player').load();
 	$('.typeahead').typeahead('val', '');
 };
+
+function giveHint() {
+	var right = Math.floor(Math.random() * 4);
+	var options = [];
+	for (var i = 0; i <= 3; i++) {
+		if (i == right) {
+			options.push(" " + curAbility);
+		}
+		else {
+			options.push(" " + ABILITIES[Math.floor(Math.random() * ABILITIES.length)]);
+		}
+	}
+	$('#cheat').text('Is it:' + options);
+}
 
 var revealAbility = function() {
 	// reveal ability icon
