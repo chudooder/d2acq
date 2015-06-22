@@ -32,7 +32,7 @@ var setNewAbility = function() {
 	$('#ability-icon').attr('src', 'img/icons/Unknown.png');
 	//Show hints
 	//Chose the right options
-	if ($("#cheats").prop('checked')) {
+	if ($("#cheat").prop('checked')) {
 		var right = Math.floor(Math.random() * 4);
 		var options = [];
 		for (var i = 0; i <= 3; i++) {
