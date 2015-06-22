@@ -32,17 +32,22 @@ var setNewAbility = function() {
 	$('#ability-icon').attr('src', 'img/icons/Unknown.png');
 	//Show hints
 	//Chose the right options
-	var right = Math.floor(Math.random() * 4);
-	var options = [];
-	for (var i = 0; i <= 3; i++) {
-		if (i == right) {
-			options.push(" " + curAbility);
+	if ($("#cheats").prop('checked')) {
+		var right = Math.floor(Math.random() * 4);
+		var options = [];
+		for (var i = 0; i <= 3; i++) {
+			if (i == right) {
+				options.push(" " + curAbility);
+			}
+			else {
+				options.push(" " + ABILITIES[Math.floor(Math.random() * ABILITIES.length)]);
+			}
 		}
-		else {
-			options.push(" " + ABILITIES[Math.floor(Math.random() * ABILITIES.length)]);
-		}
+		$('#ability-text').text('Is it:' + options);
 	}
-	$('#ability-text').text('Is it:' + options);
+	else {
+		$('#ability-text').text('???');
+	}
 	// set ability audio
 	$('#ability-audio').attr('src', 'audio/'+curAbility+'.mp3');
 	// load and play audio
