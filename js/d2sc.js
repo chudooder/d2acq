@@ -30,8 +30,19 @@ var setNewAbility = function() {
 
 	// hide ability icon
 	$('#ability-icon').attr('src', 'img/icons/Unknown.png');
-	// hide ability text
-	$('#ability-text').text('???');
+	//Show hints
+	//Chose the right options
+	var right = Math.floor(Math.random() * 4);
+	var options = [];
+	for (var i = 0; i <= 3; i++) {
+		if (i == right) {
+			options.push(" " + curAbility);
+		}
+		else {
+			options.push(" " + ABILITIES[Math.floor(Math.random() * ABILITIES.length)]);
+		}
+	}
+	$('#ability-text').text('Is it:' + options);
 	// set ability audio
 	$('#ability-audio').attr('src', 'audio/'+curAbility+'.mp3');
 	// load and play audio
