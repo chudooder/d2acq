@@ -29,6 +29,7 @@ var setNewAbility = function() {
 	curAbility = unplayed[index];
 	console.log(curAbility);
 	hidden = true;
+	hintGiven = false;
 
 	// Get rid of old hint
 	$('#cheat').text('Give me a hint!');
