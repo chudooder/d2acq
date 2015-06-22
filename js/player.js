@@ -5,4 +5,9 @@ $(document).ready(function(){
 		player.currentTime = 0;
 		player[0].play();
 	});
+
+	var hintbox = $('#cheat');
+	hintbox.click(function(){
+		giveHint()
+	})
 });

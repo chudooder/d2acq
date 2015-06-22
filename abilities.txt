@@ -89,7 +89,7 @@ Diabolic Edict
 Dismember
 Dispel Magic
 Disruption
-Doom ability
+Doom
 Doppelganger
 Doppelwalk
 Double Edge
