@@ -121,4 +121,9 @@ $(document).ready(function() {
 		resetGame();
 	});
 	resetGame();
+
+    var hintbox = $('#cheat');
+    hintbox.click(function(){
+        giveHint();
+    })
 });
