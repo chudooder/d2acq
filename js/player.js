@@ -8,6 +8,6 @@ $(document).ready(function(){
 
 	var hintbox = $('#cheat');
 	hintbox.click(function(){
-		giveHint()
+		giveHint();
 	})
 });

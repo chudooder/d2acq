@@ -60,14 +60,14 @@ var giveHint = function() {
 	}
 	$('#cheat').text('It\'s one of these:' + options);
 	hintGiven = true;
-}
+};
 
 var revealAbility = function() {
 	// reveal ability icon
 	$('#ability-icon').attr('src', 'img/icons/'+curAbility+'.png');
 	// set ability text
 	$('#ability-text').text(curAbility);
-}
+};
 
 var updateScore = function(correct) {
 	var delta = 0;
@@ -84,7 +84,7 @@ var updateScore = function(correct) {
 		streak = 0;
 	}
 	updateScoreElements(delta);
-}
+};
 
 var updateScoreElements = function(delta) {
 	$('#score-text').text("Score: "+score);
@@ -98,7 +98,7 @@ var updateScoreElements = function(delta) {
 		});
 	}
 
-}
+};
 
 var submitAnswer = function(answer) {
 	// console.log(answer)
@@ -114,7 +114,8 @@ var submitAnswer = function(answer) {
 		$('.reset').css('visibility', 'visible');
 	}
 
-}
+};
+
 $(document).ready(function() {
 	$('.reset').click(function() {
 		resetGame();
