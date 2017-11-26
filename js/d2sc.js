@@ -27,7 +27,10 @@ var resetGame = function() {
 var setNewAbility = function() {
 	var index = Math.floor(Math.random() * unplayed.length);
 	curAbility = unplayed[index];
-	// console.log(curAbility);
+
+	// hash curAbility to prevent DOM inspection cheating
+    var hashedAbility = sha256(curAbility);
+
 	hidden = true;
 	hintGiven = false;
 
@@ -38,7 +41,7 @@ var setNewAbility = function() {
 	//Set text to ???
 	$('#ability-text').text('???');
 	// set ability audio
-	$('#ability-audio').attr('src', 'audio/'+curAbility+'.mp3');
+	$('#ability-audio').attr('src', 'audio/'+hashedAbility+'.mp3');
 	// load and play audio
 	$('#ability-player').load();
 	$('.typeahead').typeahead('val', '');
