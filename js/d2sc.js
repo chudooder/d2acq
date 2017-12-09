@@ -27,7 +27,10 @@ var resetGame = function() {
 var setNewAbility = function() {
 	var index = Math.floor(Math.random() * unplayed.length);
 	curAbility = unplayed[index];
-	console.log(curAbility);
+
+	// hash curAbility to prevent DOM inspection cheating
+    var hashedAbility = sha256(curAbility);
+
 	hidden = true;
 	hintGiven = false;
 
@@ -38,7 +41,7 @@ var setNewAbility = function() {
 	//Set text to ???
 	$('#ability-text').text('???');
 	// set ability audio
-	$('#ability-audio').attr('src', 'audio/'+curAbility+'.mp3');
+	$('#ability-audio').attr('src', 'audio/'+hashedAbility+'.mp3');
 	// load and play audio
 	$('#ability-player').load();
 	$('.typeahead').typeahead('val', '');
@@ -60,14 +63,14 @@ var giveHint = function() {
 	}
 	$('#cheat').text('It\'s one of these:' + options);
 	hintGiven = true;
-}
+};
 
 var revealAbility = function() {
 	// reveal ability icon
 	$('#ability-icon').attr('src', 'img/icons/'+curAbility+'.png');
 	// set ability text
 	$('#ability-text').text(curAbility);
-}
+};
 
 var updateScore = function(correct) {
 	var delta = 0;
@@ -84,7 +87,7 @@ var updateScore = function(correct) {
 		streak = 0;
 	}
 	updateScoreElements(delta);
-}
+};
 
 var updateScoreElements = function(delta) {
 	$('#score-text').text("Score: "+score);
@@ -98,7 +101,7 @@ var updateScoreElements = function(delta) {
 		});
 	}
 
-}
+};
 
 var submitAnswer = function(answer) {
 	// console.log(answer)
@@ -114,10 +117,16 @@ var submitAnswer = function(answer) {
 		$('.reset').css('visibility', 'visible');
 	}
 
-}
+};
+
 $(document).ready(function() {
 	$('.reset').click(function() {
 		resetGame();
 	});
 	resetGame();
+
+    var hintbox = $('#cheat');
+    hintbox.click(function(){
+        giveHint();
+    })
 });

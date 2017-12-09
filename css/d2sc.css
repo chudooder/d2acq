@@ -63,12 +63,17 @@ footer img {
 
 .ability #ability-icon:hover {
   border: 2px solid #fff;
+  cursor: pointer;
 }
 
 .ability #ability-text {
 	padding: 20px 20px;
 	font-weight: lighter;
 	font-size: 36px;
+}
+
+#cheat {
+  cursor: pointer;
 }
 
 #input-box {
