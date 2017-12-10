@@ -107,7 +107,7 @@ var submitAnswer = function(answer) {
 	revealAbility();
 	var correct = (answer === curAbility.value);
 	updateScore(correct);
-	unplayed.splice(unplayed.indexOf(curAbility.value), 1);
+	unplayed.splice(unplayed.indexOf(curAbility), 1);
 	if(misses < 3 && unplayed.length > 0) {
 		setTimeout(function() {
 			setNewAbility();
