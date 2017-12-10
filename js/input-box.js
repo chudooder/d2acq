@@ -1,7 +1,9 @@
 var abilities = new Bloodhound({
-  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+  datumTokenizer: function(datum) {
+  	return datum.value.split(" ").concat(datum.hero.split(" "));
+  },
   queryTokenizer: Bloodhound.tokenizers.whitespace,
-  local: $.map(ABILITIES, function(ability) { return { value: ability }; })
+  local: ABILITIES
 });
 
 abilities.initialize();
@@ -15,7 +17,7 @@ $(document).ready(function(){
 	},
 	{
 		name: 'abilities',
-		displayKey: 'value',
+		display: function(datum) { return datum.hero + ": " + datum.value; },
 		source: abilities.ttAdapter()
 	}).on('typeahead:selected', function (obj, datum) {
 	    submitAnswer(datum.value)

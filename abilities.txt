@@ -152,7 +152,8 @@ Nature's Guise
 Enrage
 Great Cleave
 Conjure Image
-Blink
+Blink (AM)
+Blink (QoP)
 Dual Breath
 Spell Steal
 Paralyzing Cask
@@ -405,7 +406,8 @@ Insatiable Hunger
 Mana Burn
 Blinding Light
 Ravage
-Hex
+Hex (Shaman)
+Hex (Lion)
 Crypt Swarm
 Storm Hammer
 Chilling Touch
