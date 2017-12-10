@@ -19,12 +19,8 @@ Refraction
 Chemical Rage
 Voodoo Restoration
 Null Field
-Telekinesis Land
-Stop Sun Ray
-Return Chakram
 Spiked Carapace
 Flak Cannon
-Illuminate (Spirit Form)
 Attribute Shift (Strength Gain)
 Ensnare
 Bloodlust
@@ -93,7 +89,6 @@ Silence
 Primal Spring
 Call of the Wild
 Waveform
-Split Earth
 Searing Arrows
 Rearm
 Swashbuckle
@@ -123,7 +118,6 @@ Shadow Word
 Empowering Haste
 Heartpiercer
 Frostbite
-Shadow Poison Release
 Pit of Malice
 Thunder Strike
 Phase Shift
@@ -140,7 +134,6 @@ Rabid
 Flaming Lasso
 Hookshot
 Counter Helix
-Unstable Concoction Throw
 Primal Roar
 Cripple
 Overpower
@@ -152,7 +145,6 @@ Terrorize
 Supernova
 Spirit Lance
 Plasma Field
-Release Illuminate (Spirit Form)
 Rocket Flare
 Untouchable
 Thundergod's Wrath
@@ -161,11 +153,9 @@ Enrage
 Great Cleave
 Conjure Image
 Blink
-Break Tether
 Dual Breath
 Spell Steal
 Paralyzing Cask
-Trap
 Wall of Replica
 Mirror Image
 Whirling Axes (Melee)
@@ -203,14 +193,12 @@ Torrent
 Phantom Strike
 Infernal Blade
 Static Storm
-Release
 Tornado
 Shadow Wave
 Tombstone
 Rolling Thunder
 Lightning Bolt
 Frost Blast
-Stop Rolling
 Chakram
 Arctic Burn
 Soul Catcher
@@ -221,11 +209,9 @@ Omnislash
 Track
 Sonic Wave
 Howl
-Morph Replicate
 Shukuchi
 Penitence
 Strafe
-Return Astral Spirit
 Sleight of Fist
 Arcane Curse
 Hand of God
@@ -296,7 +282,6 @@ Warcry
 Void
 Drunken Haze
 Wild Axes
-Release Illuminate
 Dark Rift
 Chaos Bolt
 Poof
@@ -371,9 +356,7 @@ Guardian Angel
 Tree Throw
 Druid Form
 Life Drain
-Stop Icarus Dive
 Grave Chill
-Consume
 Adaptive Strike (Agility)
 Mana Break
 Cold Feet
@@ -414,7 +397,6 @@ Revert Form
 Assassinate
 Avalanche
 Cursed Crown
-Boulder Smash
 Splinter Blast
 Demonic Purge
 Shockwave
@@ -445,7 +427,6 @@ Corrosive Haze
 Spirit Siphon
 Poison Attack
 Overcharge
-Cancel Dark Rift
 Wukong's Command
 Adaptive Strike (Strength)
 Liquid Fire
@@ -465,7 +446,6 @@ Psi Blades
 Reincarnation
 God's Strength
 Ion Shell
-Song of the Siren End
 Nethertoxin
 Enchant Remnant
 Doom
@@ -473,12 +453,10 @@ Berserker's Rage
 Chaotic Offering
 Ghost Walk
 Brain Sap
-Eject
 Geomagnetic Grip
 Magnetic Field
 Bristleback
 Wraithfire Blast
-Unburrow
 Moon Glaives
 Bramble Maze
 Disruption
