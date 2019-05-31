@@ -18,7 +18,7 @@ def parseHero(heroLink):
     abilities = soup.find_all(lambda elem: elem.name == 'div' and 'style' in elem.attrs and 'flex: 0 1 450px' in elem.attrs['style'])
     for ability in abilities:
         # get the ability sound file
-        btn = ability.find('a', title='Play', class_='sm2_button')
+        btn = ability.find('source', type='audio/mpeg')
         if btn is None:
             continue
 
@@ -37,7 +37,7 @@ def parseHero(heroLink):
 
 html = br.open('http://dota2.gamepedia.com/Heroes')
 soup = BeautifulSoup(html.read(), 'lxml')
-heroes = soup.find_all('img', width=80, height=45)
+heroes = soup.find_all('img', width=150, height=84)
 for hero in heroes:
     link = 'http://dota2.gamepedia.com' + hero.parent.attrs['href']
     parseHero(link)
