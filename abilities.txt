@@ -1,464 +1,477 @@
-Tree Grab
-Jingu Mastery
-Laser
-Test of Faith
-Maledict
-Dispel Magic
-Repel
-The Swarm
-Shuriken Toss
-Fade Bolt
-Plague Ward
-Caustic Finale
-Weave
-Spell Block
-Exorcism
-Summon Spirit Bear
-Phantom Rush
-Refraction
-Chemical Rage
-Voodoo Restoration
-Null Field
-Spiked Carapace
-Flak Cannon
-Attribute Shift (Strength Gain)
-Ensnare
-Bloodlust
-Cloak and Dagger
-Fate's Edict
-Scorched Earth
-Ball Lightning
-Entangling Claws
-Chaos Strike
-Bloodrage
-Nightmare End
-Juxtapose
-Bedlam
-Rupture
-Quill Spray
-Tree Dance
-Tricks of the Trade
-Requiem of Souls
-Echo Stomp
-Alacrity
-Ignite
-Light Strike Array
-Rocket Barrage
-Fireblast
-Mass Serpent Ward
-Assimilate
-Dragon Tail
-Cyclone
-EMP
-Holy Persuasion
-Firestorm
-Kinetic Field
-Rip Tide
-Crystal Nova
-Battle Cry
-Spark Wraith
-Shackles
-Surge
-Poison Nova
-Ice Shards
-Impale
-Illusory Orb
-Overgrowth
-Arcane Bolt
-Geminate Attack
-Stone Form
-Walrus Kick
-Fissure
-Astral Spirit
-Mischief
-Battle Trance
-Pinpoint Detonate
-Death Pact
-Sunder
-Duel
-Shadow Strike
-Ethereal Jaunt
-Nether Strike
-Doppelganger
-Static Link
-Spin Web
-Fiend's Grip
-Unstable Concoction
-Stone Gaze
-Silence
-Primal Spring
-Call of the Wild
-Waveform
-Searing Arrows
-Rearm
-Swashbuckle
-Black Hole
-Spectral Dagger
-Macropyre
-Song of the Siren
-Spawn Spiderlings
-Windrun
-Reverse Polarity
-Demonic Conversion
-Moment of Courage
-Rolling Boulder
-Decrepify
-Berserker's Call
-Last Word
-March of the Machines
-Battery Assault
-Ice Path
-Frozen Sigil
-Echo Slam
-Summon Familiars
-Dragon Slave
-Ice Vortex
-Skewer
-Shadow Word
-Empowering Haste
-Heartpiercer
-Frostbite
-Pit of Malice
-Thunder Strike
-Phase Shift
-Desolate
-Phantasm
-False Promise
-Flux
-Pounce
-Drunken Brawler
-Wind Walk
-Mana Void
-Breathe Fire
-Rabid
-Flaming Lasso
-Hookshot
-Counter Helix
-Primal Roar
-Cripple
-Overpower
-Sanity's Eclipse
-Waning Rift
-Cold Embrace
-Decay
-Terrorize
-Supernova
-Spirit Lance
-Plasma Field
-Rocket Flare
-Untouchable
-Thundergod's Wrath
-Nature's Guise
-Enrage
-Great Cleave
-Conjure Image
-Blink (AM)
-Blink (QoP)
-Dual Breath
-Spell Steal
-Paralyzing Cask
-Wall of Replica
-Mirror Image
-Whirling Axes (Melee)
-Homing Missile
-Gust
-Slithereen Crush
-Shield Crash
-Gush
-Eye of the Storm
-Arc Lightning
-Reflection
-Malefice
-Wrath of Nature
-Ice Armor
-Mist Coil
-Multicast
-Chronosphere
-Activate Fire Remnant
-Stasis Trap
-Toss
-Impetus
-Ice Wall
-Dark Pact
-Reaper's Scythe
-Shackleshot
-Invoke
-Dismember
-Starstorm
-Mana Shield
-Nether Blast
-Nether Swap
-Enfeeble
-Flame Guard
-Torrent
-Phantom Strike
-Infernal Blade
-Static Storm
-Tornado
-Shadow Wave
-Tombstone
-Rolling Thunder
-Lightning Bolt
-Frost Blast
-Chakram
-Arctic Burn
-Soul Catcher
-Essence Aura
-Burning Spear
-Freezing Field
-Omnislash
-Track
-Sonic Wave
-Howl
-Shukuchi
-Penitence
-Strafe
-Sleight of Fist
-Arcane Curse
-Hand of God
-Sticky Napalm
-Lightning Storm
-Shrapnel
-Blade Fury
-Death Ward
-Metamorphosis
-Burrowstrike
-Anchor Smash
-Ghost Shroud
-Shadow Realm
-Time Walk
-Walrus PUNCH!
-Ghostship
-Wave of Terror
-Chaos Meteor
-Enchant Totem
-Proximity Mines
-Devour
-Minefield Sign
-Venomous Gale
-Unstable Current
-Vendetta
-Winter's Curse
-Greater Bash
-Shapeshift
-Haunt
-Return
-Life Break
-Fortune's End
-Launch Fire Spirit
-Time Lapse
-Searing Chains
-Meat Hook
-Elder Dragon Form
-Sprout
-Bash of the Deep
-Reality
-Dream Coil
-Shallow Grave
-Teleportation
-Charge of Darkness
-Mana Drain
-Darkness
-Tempest Double
-Whirling Axes (Ranged)
-Firefly
-Scream of Pain
-Magic Missile
-Illuminate
-Leap
-Nightmare
-Infest
-Eclipse
-Remote Mines
-X Marks the Spot
-Empower
-Overload
-Vacuum
-Leech Seed
-Blade Dance
-Icarus Dive
-Call Down
-Focused Detonate
-Warcry
-Void
-Drunken Haze
-Wild Axes
-Dark Rift
-Chaos Bolt
-Poof
-Double Edge
-Pulse Nova
-Earthshock
-Soul Rip
-Attribute Shift (Agility Gain)
-Arcane Orb
-Electric Vortex
-Relocate
-Cold Snap
-Stone Remnant
-Stifling Dagger
-Static Field
-Crippling Fear
-Sacred Arrow
-Rage
-Sand Storm
-Aghanim's Scepter Synth
-Ether Shock
-Inner Vitality
-Shadow Dance
-Summon Wolves
-Sun Ray
-Tidebringer
-Primal Split
-Time Lock
-Viper Strike
-Hoof Stomp
-Coup de Grace
-Nature's Attendants
-Sacrifice
-Fire Spirits
-Enchant
-Soul Assumption
-Rot
-Shadow Walk
-Moonlight Shadow
-Mystic Snake
-Chakra Magic
-Diabolic Edict
-Hurl Boulder
-Magnetize
-Purifying Flames
-Focus Fire
-Press the Attack
-Sun Strike
-Culling Blade
-Skeleton Walk
-Mortal Strike
-Split Shot
-Midnight Pulse
-Grow
-Shadow Poison
-Borrowed Time
-Static Remnant
-Spirits
-Heat-Seeking Missile
-Snowball
-Nimbus
-Poison Touch
-Blast Off!
-Forge Spirit
-Viscous Nasal Goo
-Shadowraze
-Geostrike
-Aphotic Shield
-Nature's Call
-Nether Ward
-Guardian Angel
-Tree Throw
-Druid Form
-Life Drain
-Grave Chill
-Adaptive Strike (Agility)
-Mana Break
-Cold Feet
-Concussive Shot
-Mana Leak
-Laguna Blade
-Telekinesis
-Upheaval
-Recall
-Earth Spike
-Ancient Seal
-Purification
-Epicenter
-Acid Spray
-Smoke Screen
-Thunder Clap
-Fire Remnant
-Glaives of Wisdom
-Earth Splitter
-Living Armor
-Meld
-Powershot
-Corrosive Skin
-Frost Arrows
-Blink Strike
-Lucent Beam
-Time Dilation
-True Form
-Spirit Form
-Finger of Death
-Power Cogs
-Stampede
-Psionic Trap
-Mystic Flare
-Global Silence
-Blood Rite
-Revert Form
-Assassinate
-Avalanche
-Cursed Crown
-Splinter Blast
-Demonic Purge
-Shockwave
-Spell Shield
-Insatiable Hunger
-Mana Burn
-Blinding Light
-Ravage
-Hex (Shaman)
-Hex (Lion)
-Crypt Swarm
-Storm Hammer
-Chilling Touch
-Astral Imprisonment
-Eyes In The Forest
-Tether
 Chain Frost
-Overwhelming Odds
-Guardian Sprint
-Earthbind
-Fatal Bonds
-Unrefined Fireblast
-Glimpse
-Timber Chain
-Burrow
-Savage Roar
-Jinada
-Corrosive Haze
-Spirit Siphon
-Poison Attack
-Overcharge
-Wukong's Command
-Adaptive Strike (Strength)
-Liquid Fire
-Death Pulse
-Open Wounds
-Healing Ward
-Kraken Shell
-Flesh Golem
-Boundless Strike
+Winter's Curse
+Light Strike Array
 Whirling Death
-Flamebreak
-Battle Hunger
-Reality Rift
-Deafening Blast
-Ice Blast
-Psi Blades
-Reincarnation
-God's Strength
-Ion Shell
-Nethertoxin
-Enchant Remnant
-Doom
-Berserker's Rage
-Chaotic Offering
-Ghost Walk
-Brain Sap
-Geomagnetic Grip
-Magnetic Field
-Bristleback
-Wraithfire Blast
+Crystal Nova
+Mass Serpent Ward
+Shadow Walk
+Revert Form
+Grave Chill
+Pounce
+Shuriken Toss
+Entangling Claws
+Upheaval
+Dark Ascension
+Skewer
+Launch Fire Spirit
+Chakra Magic
+Dismember
+Counterspell
+Storm Hammer
 Moon Glaives
-Bramble Maze
+Silence
+Penitence
+Reaper's Scythe
+Lightning Bolt
+Insatiable Hunger
+Spin Web
+Track
+Stone Gaze
+Diabolic Edict
+Elder Dragon Form
+Bloodrage
+Overpower
+Fortune's End
+Venomous Gale
+Doom
+Ignite
+Nightmare
+Nether Blast
+Spear of Mars
+Timber Chain
+Summon Spirit Bear
+Assassinate
+Nature's Call
+Cold Snap
+Burrow
+Echo Slam
+Last Word
+Nature's Attendants
+Illuminate
+Reverse Polarity
+Walrus Kick
+Blink (AM)
+Firestorm
+Focus Fire
+Hurl Boulder
+Arc Lightning
+Curse of Avernus
+Chaos Meteor
+The Swarm
+Magnetize
+Summon Familiars
+Overcharge
+Macropyre
+Power Cogs
+Mist Coil
+Frost Arrows
+Blur
+Whirling Axes (Ranged)
+Minefield Sign
+Hex (Lion)
+Sticky Napalm
+Hex (Shaman)
+Mischief
+Whirling Axes (Melee)
+Moment of Courage
+Return
+Nether Strike
+Earthshock
+Culling Blade
+Jinada
+Guardian Sprint
+Chaotic Offering
+Boundless Strike
+Starstorm
+Conjure Image
+Plague Ward
+Eyes In The Forest
+Sacred Arrow
+Overload
+Reality Rift
+Ghostship
+Thundergod's Wrath
+Phantom Rush
+Shadow Poison
+Enchant Totem
+Bulldoze
+Laser
+Spark Wraith
+Rupture
+Corrosive Skin
+Scorched Earth
+Demonic Conversion
+Heat-Seeking Missile
+Bloodlust
+Duel
+Shadow Realm
+Demonic Purge
+Torrent
+Deafening Blast
+Nature's Guise
+Coup de Grace
+Ghost Walk
+Soul Catcher
+Multicast
+Arctic Burn
+Cripple
+Viper Strike
+Quill Spray
+Ice Shards
+Ice Vortex
+Jingu Mastery
+Dark Pact
+X Marks the Spot
+Spell Steal
+Tag Team
+Lucent Beam
+Counter Helix
+Life Break
+Call Down
+Chilling Touch
+Spell Block
+Spirits
+Shadowraze
+Battle Cry
+Spawn Spiderlings
+Finger of Death
+Global Silence
+Walrus PUNCH!
+Mana Drain
+Blood Rite
+Flamebreak
+Strafe
+Shallow Grave
+Heavenly Grace
+Tornado
+Teleportation
+Cyclone
+Leech Seed
+Call of the Wild Boar
+Bristleback
+Tempest Double
+Ion Shell
+Flux
+Nethertoxin
+Fire Remnant
+Black Hole
+Phantom Strike
+Bedlam
+Toss
+Tombstone
+Lucky Shot
+Exorcism
+Stifling Dagger
+Relocate
+Searing Arrows
+Purifying Flames
+Glaives of Wisdom
+Poison Attack
+Infernal Blade
+Avalanche
+Sand Storm
+Chaos Strike
 Disruption
+Scream of Pain
+Phase Shift
+Static Field
+Drunken Brawler
+Waveform
+Battery Assault
+Shapeshift
+Metamorphosis
+Chakram
+Aghanim's Scepter Synth
+Wall of Replica
+Sanity's Eclipse
+Empower
+Tree Volley
+Static Link
+Shadow Word
+Doppelganger
+Fatal Bonds
+Tricks of the Trade
+Dragon Tail
+Fire Spirits
+Magic Missile
+Rip Tide
+Mana Burn
+Firefly
+Chaos Bolt
+Nightmare End
+Dream Coil
+Breathe Fire
+Static Remnant
+Moonlight Shadow
+Bulwark
+Press the Attack
+Gust
+Chemical Rage
+Overwhelming Odds
+Reality
+Flame Guard
+Haunt
+Flesh Golem
+Death Pulse
+Blinding Light
+Ice Blast
+Shackles
+Splinter Blast
+Battle Hunger
+Sun Ray
+Enfeeble
+Malefice
+Summon Wolves
+Maledict
+Time Lapse
+Berserker's Rage
+Sinister Gaze
+Nether Ward
+False Promise
+Adaptive Strike (Strength)
+Rune Forge
+Pinpoint Detonate
+Blade Fury
+Lightning Storm
+Wave of Terror
+Eye of the Storm
+Fate's Edict
+Poison Nova
+Acid Spray
+Soul Rip
+Invoke
+Frost Blast
+Crippling Fear
+Midnight Pulse
+Anchor Smash
+Omnislash
+Devour
+Desolate
+Sun Strike
+Ravage
+Voodoo Restoration
+Impale
+Sunder
+Shield Crash
+Slithereen Crush
+Shadow Strike
+Stone Remnant
+Earth Spike
+Purification
+Skeleton Walk
+Laguna Blade
+Mortal Strike
+Spirit Siphon
+Primal Spring
+Mystic Snake
+Untouchable
+Activate Fire Remnant
+Grow
+Plasma Field
+Assimilate
+Time Dilation
+Frostbite
+Tree Dance
+Stampede
+Infest
+Fireblast
+Eclipse
+Meat Hook
+Overgrowth
+Dark Rift
+Vendetta
+Rocket Barrage
+Geomagnetic Grip
+Open Wounds
+Earth Splitter
+Tree Throw
+Vacuum
+Call of the Wild Hawk
+Psi Blades
+Release Illuminate
+Waning Rift
+Wukong's Command
+Focused Detonate
+Echo Stomp
+Chronosphere
+Enchant
+Kraken Shell
+Shadow Dance
+Homing Missile
+Cursed Crown
+Wrath of Nature
+Hand of God
+Shadow Step
+Impetus
+Freezing Field
+Holy Persuasion
+Bad Juju
+Rage
+Sonic Wave
+Cinder Brew
+God's Strength
+Crypt Swarm
+Remote Mines
+Cold Embrace
+Hoof Stomp
+Double Edge
+Burrowstrike
+Concussive Shot
+Spectral Dagger
+Fissure
+Healing Ward
+Will-O-Wisp
+Blink Strike
+Caustic Finale
+Dispel Magic
+Earthbind
+Ensnare
+March of the Machines
+Song of the Siren
+Mana Shield
+Static Storm
+Blade Dance
+Astral Spirit
+Arena Of Blood
+Sprout
+Swashbuckle
+Enrage
+Unstable Concoction
+God's Rebuke
+Geminate Attack
+Druid Form
+Requiem of Souls
+Tether
+Ghost Shroud
+Sleight of Fist
+Electric Vortex
+Forge Spirit
+Liquid Fire
+Mana Void
+Enchant Remnant
+Rolling Thunder
+Battle Trance
+Bash of the Deep
+Berserker's Call
+Poof
+Pulse Nova
+Phantasm
+Proximity Mines
+Unstable Current
+Ice Wall
+Terrorize
+Icarus Dive
+Flaming Lasso
+Paralyzing Cask
+Tidebringer
+Great Cleave
+Shockwave
+Nimbus
+Windrun
+Arcane Curse
+Rot
+Gush
+Illusory Orb
+Flak Cannon
+Poison Touch
+Meld
+Hookshot
+Smoke Screen
+Spirit Lance
+Bramble Maze
+Charge of Darkness
+Fiend's Grip
+Spiked Carapace
+Stasis Trap
+Viscous Nasal Goo
+Death Ward
+Shadow Wave
+Time Walk
+Time Lock
+Wild Axes
+Reflection
+Corrosive Haze
+Spirit Link
+Ether Shock
+Soulbind
+Astral Imprisonment
+Stone Form
+Juxtapose
+Rocket Flare
+True Form
+Mirror Image
+Supernova
+Wraithfire Blast
+Soul Assumption
+Searing Chains
+Primal Split
+Brain Sap
+Aphotic Shield
+Retaliate
+Burning Spear
+Epicenter
+Pit of Malice
+Cold Feet
+Shrapnel
+Surge
+Warcry
+Ink Swell
+Kinetic Field
+Equilibrium
+Living Armor
+Shackleshot
+Magnetic Field
+Borrowed Time
+Shukuchi
+Rolling Boulder
+Howl
+Thunder Strike
+Powershot
+Psionic Trap
+Decay
+Ancient Seal
+Thunder Clap
+Mana Break
+Arcane Bolt
+Inner Fire
+Dragon Slave
+Psionic Projection
+EMP
+Leap
+Telekinesis
+Savage Roar
+Attribute Shift (Strength Gain)
+Unrefined Fireblast
+Ball Lightning
+Split Shot
+Tree Grab
+Ransack
+Reincarnation
+Stroke of Fate
+Decrepify
+Refraction
+Frost Shield
+Arcane Orb
+Glimpse
+Void
+Ice Path
+Fade Bolt
+Primal Roar
+Life Drain
+Burning Army
+Guardian Angel
+Attribute Shift (Agility Gain)
+Marksmanship
+Adaptive Strike (Agility)
+Blink (QoP)
+Greater Bash
+Alacrity
+Cloak and Dagger
+Rearm
+Ethereal Jaunt
+Snowball
+Wind Walk
+Phantom's Embrace
+Mystic Flare
+Dual Breath
+Nether Swap
