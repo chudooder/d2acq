@@ -1,9 +1,9 @@
 Mist Coil,Abaddon
 Aphotic Shield,Abaddon
+Curse of Avernus,Abaddon
 Borrowed Time,Abaddon
 Acid Spray,Alchemist
 Unstable Concoction,Alchemist
-Unstable Concoction Throw,Alchemist
 Chemical Rage,Alchemist
 Aghanim's Scepter Synth,Alchemist
 Berserker's Call,Axe
@@ -11,21 +11,26 @@ Battle Hunger,Axe
 Counter Helix,Axe
 Culling Blade,Axe
 Wild Axes,Beastmaster
-Call of the Wild,Beastmaster
+Call of the Wild Boar,Beastmaster
+Call of the Wild Hawk,Beastmaster
 Primal Roar,Beastmaster
 Thunder Clap,Brewmaster
-Drunken Haze,Brewmaster
+Cinder Brew,Brewmaster
 Drunken Brawler,Brewmaster
 Primal Split,Brewmaster
 Hurl Boulder,Brewmaster
+Thunder Clap,Brewmaster
 Dispel Magic,Brewmaster
 Cyclone,Brewmaster
 Wind Walk,Brewmaster
+Cinder Brew,Brewmaster
+Drunken Brawler,Brewmaster
 Viscous Nasal Goo,Bristleback
 Quill Spray,Bristleback
 Bristleback,Bristleback
 Hoof Stomp,Centaur Warrunner
 Double Edge,Centaur Warrunner
+Retaliate,Centaur Warrunner
 Stampede,Centaur Warrunner
 Chaos Bolt,Chaos Knight
 Reality Rift,Chaos Knight
@@ -42,7 +47,6 @@ Doom,Doom
 Breathe Fire,Dragon Knight
 Dragon Tail,Dragon Knight
 Elder Dragon Form,Dragon Knight
-Boulder Smash,Earth Spirit
 Rolling Boulder,Earth Spirit
 Geomagnetic Grip,Earth Spirit
 Stone Remnant,Earth Spirit
@@ -53,13 +57,11 @@ Enchant Totem,Earthshaker
 Echo Slam,Earthshaker
 Echo Stomp,Elder Titan
 Astral Spirit,Elder Titan
-Return Astral Spirit,Elder Titan
 Earth Splitter,Elder Titan
-Inner Vitality,Huskar
+Inner Fire,Huskar
 Burning Spear,Huskar
 Life Break,Huskar
 Tether,Io
-Break Tether,Io
 Spirits,Io
 Overcharge,Io
 Relocate,Io
@@ -75,9 +77,7 @@ Duel,Legion Commander
 Rage,Lifestealer
 Open Wounds,Lifestealer
 Infest,Lifestealer
-Consume,Lifestealer
 Assimilate,Lifestealer
-Eject,Lifestealer
 Summon Wolves,Lycan
 Howl,Lycan
 Shapeshift,Lycan
@@ -86,18 +86,20 @@ Shockwave,Magnus
 Empower,Magnus
 Skewer,Magnus
 Reverse Polarity,Magnus
+Spear of Mars,Mars
+God's Rebuke,Mars
+Bulwark,Mars
+Arena Of Blood,Mars
 Void,Night Stalker
 Crippling Fear,Night Stalker
-Darkness,Night Stalker
+Dark Ascension,Night Stalker
 Purification,Omniknight
-Repel,Omniknight
+Heavenly Grace,Omniknight
 Guardian Angel,Omniknight
 Icarus Dive,Phoenix
-Stop Icarus Dive,Phoenix
 Fire Spirits,Phoenix
 Launch Fire Spirit,Phoenix
 Sun Ray,Phoenix
-Stop Sun Ray,Phoenix
 Supernova,Phoenix
 Meat Hook,Pudge
 Rot,Pudge
@@ -111,7 +113,7 @@ Slithereen Crush,Slardar
 Bash of the Deep,Slardar
 Corrosive Haze,Slardar
 Charge of Darkness,Spirit Breaker
-Empowering Haste,Spirit Breaker
+Bulldoze,Spirit Breaker
 Greater Bash,Spirit Breaker
 Nether Strike,Spirit Breaker
 Storm Hammer,Sven
@@ -125,14 +127,12 @@ Ravage,Tidehunter
 Whirling Death,Timbersaw
 Timber Chain,Timbersaw
 Chakram,Timbersaw
-Return Chakram,Timbersaw
-Chakram (Aghanim's Scepter),Timbersaw
-Return Chakram (Aghanim's Scepter),Timbersaw
 Avalanche,Tiny
 Toss,Tiny
 Tree Grab,Tiny
 Tree Throw,Tiny
 Grow,Tiny
+Tree Volley,Tiny
 Nature's Guise,Treant Protector
 Leech Seed,Treant Protector
 Living Armor,Treant Protector
@@ -140,13 +140,12 @@ Overgrowth,Treant Protector
 Eyes In The Forest,Treant Protector
 Ice Shards,Tusk
 Snowball,Tusk
-Frozen Sigil,Tusk
+Tag Team,Tusk
 Walrus PUNCH!,Tusk
 Walrus Kick,Tusk
 Firestorm,Underlord
 Pit of Malice,Underlord
 Dark Rift,Underlord
-Cancel Dark Rift,Underlord
 Decay,Undying
 Soul Rip,Undying
 Tombstone,Undying
@@ -157,12 +156,13 @@ Mortal Strike,Wraith King
 Reincarnation,Wraith King
 Mana Break,Anti-Mage
 Blink (AM),Anti-Mage
-Spell Shield,Anti-Mage
+Counterspell,Anti-Mage
 Mana Void,Anti-Mage
 Flux,Arc Warden
 Magnetic Field,Arc Warden
 Spark Wraith,Arc Warden
 Tempest Double,Arc Warden
+Rune Forge,Arc Warden
 Bloodrage,Bloodseeker
 Blood Rite,Bloodseeker
 Rupture,Bloodseeker
@@ -176,9 +176,10 @@ Insatiable Hunger,Broodmother
 Strafe,Clinkz
 Searing Arrows,Clinkz
 Skeleton Walk,Clinkz
-Death Pact,Clinkz
+Burning Army,Clinkz
 Frost Arrows,Drow Ranger
 Gust,Drow Ranger
+Marksmanship,Drow Ranger
 Searing Chains,Ember Spirit
 Sleight of Fist,Ember Spirit
 Flame Guard,Ember Spirit
@@ -197,13 +198,14 @@ Healing Ward,Juggernaut
 Blade Dance,Juggernaut
 Omnislash,Juggernaut
 Summon Spirit Bear,Lone Druid
-Rabid,Lone Druid
+Spirit Link,Lone Druid
 Savage Roar,Lone Druid
 True Form,Lone Druid
 Druid Form,Lone Druid
 Battle Cry,Lone Druid
 Return,Lone Druid
 Entangling Claws,Lone Druid
+Savage Roar,Lone Druid
 Lucent Beam,Luna
 Moon Glaives,Luna
 Eclipse,Luna
@@ -213,7 +215,7 @@ Mana Shield,Medusa
 Stone Gaze,Medusa
 Earthbind,Meepo
 Poof,Meepo
-Geostrike,Meepo
+Ransack,Meepo
 Starstorm,Mirana
 Sacred Arrow,Mirana
 Leap,Mirana
@@ -230,25 +232,22 @@ Adaptive Strike (Agility),Morphling
 Adaptive Strike (Strength),Morphling
 Attribute Shift (Agility Gain),Morphling
 Attribute Shift (Strength Gain),Morphling
-Morph Replicate,Morphling
 Mirror Image,Naga Siren
 Ensnare,Naga Siren
 Rip Tide,Naga Siren
 Song of the Siren,Naga Siren
-Song of the Siren End,Naga Siren
 Impale,Nyx Assassin
 Mana Burn,Nyx Assassin
 Spiked Carapace,Nyx Assassin
 Vendetta,Nyx Assassin
 Burrow,Nyx Assassin
-Unburrow,Nyx Assassin
 Swashbuckle,Pangolier
 Shield Crash,Pangolier
-Heartpiercer,Pangolier
+Lucky Shot,Pangolier
 Rolling Thunder,Pangolier
-Stop Rolling,Pangolier
 Stifling Dagger,Phantom Assassin
 Phantom Strike,Phantom Assassin
+Blur,Phantom Assassin
 Coup de Grace,Phantom Assassin
 Spirit Lance,Phantom Lancer
 Doppelganger,Phantom Lancer
@@ -263,6 +262,8 @@ Blink Strike,Riki
 Cloak and Dagger,Riki
 Tricks of the Trade,Riki
 Shadowraze,Shadow Fiend
+Shadowraze,Shadow Fiend
+Shadowraze,Shadow Fiend
 Requiem of Souls,Shadow Fiend
 Dark Pact,Slark
 Pounce,Slark
@@ -273,12 +274,12 @@ Spectral Dagger,Spectre
 Desolate,Spectre
 Haunt,Spectre
 Reality,Spectre
+Shadow Step,Spectre
 Refraction,Templar Assassin
 Meld,Templar Assassin
 Psi Blades,Templar Assassin
 Psionic Trap,Templar Assassin
-Trap,Templar Assassin
-Trap,Templar Assassin
+Psionic Projection,Templar Assassin
 Reflection,Terrorblade
 Conjure Image,Terrorblade
 Metamorphosis,Terrorblade
@@ -308,7 +309,6 @@ Cold Feet,Ancient Apparition
 Ice Vortex,Ancient Apparition
 Chilling Touch,Ancient Apparition
 Ice Blast,Ancient Apparition
-Release,Ancient Apparition
 Enfeeble,Bane
 Brain Sap,Bane
 Nightmare,Bane
@@ -319,7 +319,6 @@ Flamebreak,Batrider
 Firefly,Batrider
 Flaming Lasso,Batrider
 Penitence,Chen
-Test of Faith,Chen
 Holy Persuasion,Chen
 Hand of God,Chen
 Crystal Nova,Crystal Maiden
@@ -337,7 +336,7 @@ Terrorize,Dark Willow
 Poison Touch,Dazzle
 Shallow Grave,Dazzle
 Shadow Wave,Dazzle
-Weave,Dazzle
+Bad Juju,Dazzle
 Crypt Swarm,Death Prophet
 Silence,Death Prophet
 Spirit Siphon,Death Prophet
@@ -354,6 +353,10 @@ Malefice,Enigma
 Demonic Conversion,Enigma
 Midnight Pulse,Enigma
 Black Hole,Enigma
+Stroke of Fate,Grimstroke
+Phantom's Embrace,Grimstroke
+Ink Swell,Grimstroke
+Soulbind,Grimstroke
 Invoke,Invoker
 Cold Snap,Invoker
 Ghost Walk,Invoker
@@ -371,20 +374,15 @@ Liquid Fire,Jakiro
 Macropyre,Jakiro
 Illuminate,Keeper of the Light
 Release Illuminate,Keeper of the Light
-Mana Leak,Keeper of the Light
-Chakra Magic,Keeper of the Light
-Spirit Form,Keeper of the Light
-Recall,Keeper of the Light
 Blinding Light,Keeper of the Light
-Illuminate (Spirit Form),Keeper of the Light
-Release Illuminate (Spirit Form),Keeper of the Light
-Split Earth,Leshrac
+Chakra Magic,Keeper of the Light
+Will-O-Wisp,Keeper of the Light
 Diabolic Edict,Leshrac
 Lightning Storm,Leshrac
 Pulse Nova,Leshrac
 Frost Blast,Lich
-Ice Armor,Lich
-Sacrifice,Lich
+Frost Shield,Lich
+Sinister Gaze,Lich
 Chain Frost,Lich
 Dragon Slave,Lina
 Light Strike Array,Lina
@@ -411,7 +409,7 @@ Purifying Flames,Oracle
 False Promise,Oracle
 Arcane Orb,Outworld Devourer
 Astral Imprisonment,Outworld Devourer
-Essence Aura,Outworld Devourer
+Equilibrium,Outworld Devourer
 Sanity's Eclipse,Outworld Devourer
 Illusory Orb,Puck
 Ethereal Jaunt,Puck
@@ -428,14 +426,11 @@ Scream of Pain,Queen of Pain
 Sonic Wave,Queen of Pain
 Spell Block,Queen of Pain
 Telekinesis,Rubick
-Telekinesis Land,Rubick
 Fade Bolt,Rubick
-Null Field,Rubick
 Spell Steal,Rubick
 Disruption,Shadow Demon
 Soul Catcher,Shadow Demon
 Shadow Poison,Shadow Demon
-Shadow Poison Release,Shadow Demon
 Demonic Purge,Shadow Demon
 Ether Shock,Shadow Shaman
 Hex (Shaman),Shadow Shaman
@@ -455,7 +450,6 @@ Overload,Storm Spirit
 Ball Lightning,Storm Spirit
 Proximity Mines,Techies
 Stasis Trap,Techies
-Blast Off!,Techies
 Minefield Sign,Techies
 Remote Mines,Techies
 Focused Detonate,Techies
