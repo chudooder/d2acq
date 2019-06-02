@@ -18,6 +18,7 @@ def parseHero(heroLink):
     soup = BeautifulSoup(html.read(), 'lxml')
     abilities = soup.find_all(lambda elem: elem.name == 'div' and 'style' in elem.attrs and 'flex: 0 1 450px' in elem.attrs['style'])
     print '%d abilities found' % (len(abilities),)
+    ability_names = set()
     for ability in abilities:
         # get the ability sound file
         btn = ability.find('source', type='audio/mpeg')
@@ -52,6 +53,11 @@ def parseHero(heroLink):
                 name = 'Hex (Shaman)'
         elif name in ['Shadowraze (Near)', 'Shadowraze (Medium)', 'Shadowraze (Far)']:
             name = 'Shadowraze'
+
+        # prevents Savage Roar, Cinder Brew from duplicating
+        if name in ability_names:
+            continue
+        ability_names.add(name)
 
         line = name + ',' + heroLink.split('/')[-1].replace('_', ' ') + '\n'
         print line
