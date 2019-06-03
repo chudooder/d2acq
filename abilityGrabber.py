@@ -44,15 +44,20 @@ def parseHero(heroLink):
         elif name == 'Blink':
             if heroname == 'Anti-Mage':
                 name = 'Blink (AM)'
-            elif heroname == 'Queen_of_Pain':
+            elif heroname == 'Queen of Pain':
                 name = 'Blink (QoP)'
         elif name == 'Hex':
             if heroname == 'Lion':
                 name = 'Hex (Lion)'
-            elif heroname == 'Shadow_Shaman':
+            elif heroname == 'Shadow Shaman':
                 name = 'Hex (Shaman)'
         elif name in ['Shadowraze (Near)', 'Shadowraze (Medium)', 'Shadowraze (Far)']:
             name = 'Shadowraze'
+        elif name == 'Return':
+            if heroname == "Kunkka":
+                name = "Return (Kunkka)"
+            elif heroname == "Lone Druid":
+                name = "Return (LD)"
 
         # prevents Savage Roar, Cinder Brew from duplicating
         if name in ability_names:
