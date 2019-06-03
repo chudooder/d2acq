@@ -13,7 +13,7 @@ br.addheaders = [('User-agent', 'Mozilla/5.0 (Windows NT 6.1) \
 out = open('abilities.csv', 'w')
 
 def parseHero(heroLink):
-    heroname = heroLink.split("/")[-1]
+    heroname = urllib.unquote(heroLink.split('/')[-1].replace('_', ' '))
     html = br.open(heroLink)
     soup = BeautifulSoup(html.read(), 'lxml')
     abilities = soup.find_all(lambda elem: elem.name == 'div' and 'style' in elem.attrs and 'flex: 0 1 450px' in elem.attrs['style'])
@@ -44,22 +44,27 @@ def parseHero(heroLink):
         elif name == 'Blink':
             if heroname == 'Anti-Mage':
                 name = 'Blink (AM)'
-            elif heroname == 'Queen_of_Pain':
+            elif heroname == 'Queen of Pain':
                 name = 'Blink (QoP)'
         elif name == 'Hex':
             if heroname == 'Lion':
                 name = 'Hex (Lion)'
-            elif heroname == 'Shadow_Shaman':
+            elif heroname == 'Shadow Shaman':
                 name = 'Hex (Shaman)'
         elif name in ['Shadowraze (Near)', 'Shadowraze (Medium)', 'Shadowraze (Far)']:
             name = 'Shadowraze'
+        elif name == 'Return':
+            if heroname == "Kunkka":
+                name = "Return (Kunkka)"
+            elif heroname == "Lone Druid":
+                name = "Return (LD)"
 
         # prevents Savage Roar, Cinder Brew from duplicating
         if name in ability_names:
             continue
         ability_names.add(name)
 
-        line = name + ',' + heroLink.split('/')[-1].replace('_', ' ') + '\n'
+        line = name + ',' + heroname + '\n'
         print line
         out.write(line)
 

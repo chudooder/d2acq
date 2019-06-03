@@ -19,11 +19,9 @@ Cinder Brew,Brewmaster
 Drunken Brawler,Brewmaster
 Primal Split,Brewmaster
 Hurl Boulder,Brewmaster
-Thunder Clap,Brewmaster
 Dispel Magic,Brewmaster
 Cyclone,Brewmaster
 Wind Walk,Brewmaster
-Drunken Brawler,Brewmaster
 Viscous Nasal Goo,Bristleback
 Quill Spray,Bristleback
 Bristleback,Bristleback
@@ -67,7 +65,7 @@ Relocate,Io
 Torrent,Kunkka
 Tidebringer,Kunkka
 X Marks the Spot,Kunkka
-Return,Kunkka
+Return (Kunkka),Kunkka
 Ghostship,Kunkka
 Overwhelming Odds,Legion Commander
 Press the Attack,Legion Commander
@@ -202,7 +200,7 @@ Savage Roar,Lone Druid
 True Form,Lone Druid
 Druid Form,Lone Druid
 Battle Cry,Lone Druid
-Return,Lone Druid
+Return (LD),Lone Druid
 Entangling Claws,Lone Druid
 Lucent Beam,Luna
 Moon Glaives,Luna
@@ -259,8 +257,6 @@ Smoke Screen,Riki
 Blink Strike,Riki
 Cloak and Dagger,Riki
 Tricks of the Trade,Riki
-Shadowraze,Shadow Fiend
-Shadowraze,Shadow Fiend
 Shadowraze,Shadow Fiend
 Requiem of Souls,Shadow Fiend
 Dark Pact,Slark
@@ -389,10 +385,10 @@ Earth Spike,Lion
 Hex (Lion),Lion
 Mana Drain,Lion
 Finger of Death,Lion
-Sprout,Nature%27s Prophet
-Teleportation,Nature%27s Prophet
-Nature's Call,Nature%27s Prophet
-Wrath of Nature,Nature%27s Prophet
+Sprout,Nature's Prophet
+Teleportation,Nature's Prophet
+Nature's Call,Nature's Prophet
+Wrath of Nature,Nature's Prophet
 Death Pulse,Necrophos
 Ghost Shroud,Necrophos
 Reaper's Scythe,Necrophos
