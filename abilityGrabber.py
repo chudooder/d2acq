@@ -13,7 +13,7 @@ br.addheaders = [('User-agent', 'Mozilla/5.0 (Windows NT 6.1) \
 out = open('abilities.csv', 'w')
 
 def parseHero(heroLink):
-    heroname = heroLink.split("/")[-1]
+    heroname = urllib.unquote(heroLink.split('/')[-1].replace('_', ' '))
     html = br.open(heroLink)
     soup = BeautifulSoup(html.read(), 'lxml')
     abilities = soup.find_all(lambda elem: elem.name == 'div' and 'style' in elem.attrs and 'flex: 0 1 450px' in elem.attrs['style'])
@@ -59,7 +59,7 @@ def parseHero(heroLink):
             continue
         ability_names.add(name)
 
-        line = name + ',' + heroLink.split('/')[-1].replace('_', ' ') + '\n'
+        line = name + ',' + heroname + '\n'
         print line
         out.write(line)
 
